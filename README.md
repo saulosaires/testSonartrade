@@ -1,5 +1,9 @@
 # testSonartrade
 
+To run this project you need to call the main class and pass the params X M and N in the order
+
+
+
 
 
 Schedule the polling of trades over REST.
