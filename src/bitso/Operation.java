@@ -41,20 +41,6 @@ public  class Operation {
 	public List<Order> getBestorders(int n){
  
 		
-//		Optional<BigDecimal> max = map.values().stream()
-//									           .map(o -> o.getPrice())
-//									           .filter(o -> Objects.nonNull(o))
-//									           .max((o1,o2)-> o1.compareTo(o2));
-//		
-//		
-//		Optional<BigDecimal> min = map.values().stream().map(o -> o.getPrice()).filter(o -> Objects.nonNull(o)).min((o1,o2)-> o1.compareTo(o2));
-		
-//		System.out.println("===============");
-//		if(max.isPresent())System.out.println("MAX VALUE:"+max.get());
-//		if(min.isPresent())System.out.println("MIN VALUE:"+min.get());
-//		System.out.println("===============");
-//		System.out.println("");
-		
 		   List<Order> list = map.values().stream()
 				   						  .filter(o -> Objects.nonNull(o.getPrice()))
 		    		   					  .sorted((o1,o2) -> o2.getPrice().compareTo(o1.getPrice()))

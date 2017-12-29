@@ -31,7 +31,7 @@ import model.OrderBook;
 import model.Svalue;
 import util.JsonParser;
 
-public class Solution {
+public class Main {
  
 	private final static String BITSO_URL = "wss://ws.bitso.com";
 	
